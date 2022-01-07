@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Vujahday+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  background-color: pink;
+}
+
+.title {
+  margin-top: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+
+.btn {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
+
+.quote {
+  background-color: pink;
+  /* padding: 0.6rem; */
+  text-align: center;
+}
+
+.quote {
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: "Vujahday Script", cursive;
+}
+
+.author {
+  width: auto;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: rosybrown;
+}
